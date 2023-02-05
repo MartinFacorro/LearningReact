@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client"; //HERRAMIENTA PARA RENDERIZAR
 
-function App() { // FUNCTION COMPONENT O COMPONENTE INICIAL
-  return (<h1>Hola mundo!</h1>);
-}
+import {App} from './HelloWorldApp'
 
 //RENDERIZARLA EN EL DOM
 ReactDOM.createRoot( document.getElementById('root') ).render(
